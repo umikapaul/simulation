@@ -51,47 +51,47 @@ All other live cells die in the next generation. Similarly, all other dead cells
 
 #### Segregation
 
-Red: RACE 1
-Blue: RACE 2
+Red: RACE 1<br />
+Blue: RACE 2<br />
 White: NO RACE
 
 <img src="doc/Segregation.gif" width="500" height="500"/>
 
 #### Predator Prey
 
-Turquoise:SPECIES 1 (Ex. FISH)
-Blue: SPECIES 2 (Ex. SHARK)
+Turquoise:SPECIES 1 (Ex. FISH)<br />
+Blue: SPECIES 2 (Ex. SHARK)<br />
 Black: WATER
 
 <img src="doc/PredatorPrey.gif" width="500" height="500"/>
 
 #### Spreading of Fire
 
-Green: TREE
-Yellow: EMPTY cell of land
+Green: TREE<br />
+Yellow: EMPTY cell of land<br />
 Red: BURNING cell
 
 <img src="doc/SpreadingOfFire.gif" width="500" height="500"/>
 
 #### Rock, Paper, Scissors
 
-Red: ROCK
-Blue: PAPER
+Red: ROCK<br />
+Blue: PAPER<br />
 Green: SCISSORS
 
 <img src="doc/RockPaperScissors.gif" width="500" height="500"/>
 
 #### Game of Life
 
-Red: ALIVE cell
+Red: ALIVE cell<br />
 Black: DEAD cell
 
 <img src="doc/GameOfLife.gif" width="500" height="500"/>
 
 #### Percolation
 
-Blue: OPEN FULL
-Purple: OPEN NOT FULL
+Blue: OPEN FULL<br />
+Purple: OPEN NOT FULL<br />
 Black: BLOCKED
 
 <img src="doc/Percolation.gif" width="500" height="500"/>
