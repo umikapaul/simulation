@@ -51,8 +51,6 @@ Any live cell with two or three live neighbours survives.<br />
 Any dead cell with three live neighbours becomes a live cell.<br />
 All other live cells die in the next generation. Similarly, all other dead cells stay dead.<br />
 
-**Percolation**:  Each site is either open or blocked. A full site is an open site that can be connected to an open site in the top row via a chain of neighboring (left, right, up, down) open sites. In diagrams we color full sites blue to model water flowing from the top through the system. We say the system percolates if there is at least one full site in the bottom row.
-
 #### Segregation
 
 Red: RACE 1<br />
@@ -92,41 +90,7 @@ Black: DEAD cell
 
 <img src="doc/GameOfLife.gif" width="500" height="500"/>
 
-#### Percolation
-
-Blue: OPEN FULL<br />
-Purple: OPEN NOT FULL<br />
-Black: BLOCKED
-
-<img src="doc/Percolation.gif" width="500" height="500"/>
-
-- Different edge policies: These include Finite, Klein Bottle, and Torodial.
-
-#### Klein Bottle
-
-Notice how the enclosed block on the bottom right and top left side of the screen are full because the grid connects on both sides after twisting one of the sides. Site: https://en.wikipedia.org/wiki/Klein_bottle.
-
-<img src="doc/KleinBottle.gif" width="500" height="500"/>
-
-#### Torodial
-
-Notice how the enclosed block on the right and left side of the screen are full because the grid connects on both sides.
-
-<img src="doc/Torodial.gif" width="500" height="500"/>
-
-- Different neighborhood policies: These include Complete, Diagonal, and Cardinal.
-
-#### Diagonal
-
-Only the northeast, southeast, northwest, and southwest neighbors count. The cells blocked above and below remain blocked.
-
-<img src="doc/Diagonal.gif" width="500" height="500"/>
-
-#### Cardinal
-
-Only the north, east, south, and west count as neighbors. The cells that are blocked diagonally remain blocked.
-
-<img src="doc/Cardinal.gif" width="500" height="500"/>
+### Additional Features
 
 - **Three languages: English, Spanish, and French.**
 
