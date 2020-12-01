@@ -6,11 +6,15 @@ This project implements a cellular automata simulator.
 ### Resources Used
 
 Professor Duvall's lectures and notes from class
+
 - Examples of reflection
 - Examples of abstraction
 - Principles such as Open Closed, Single Responsibility, Liskov's Substitution
+
 StackOverFlow
+
 Rules for CA simulations:
+
 - Schelling's Model of Segregation: https://www2.cs.duke.edu/courses/fall20/compsci307d/assign/03_simulation/nifty/mccown-schelling-model-segregation
 - Wa-Tor World model of predator-prey relationships: https://www2.cs.duke.edu/courses/fall20/compsci307d/assign/03_simulation/nifty/scott-wator-world
 - Spreading of Fire: https://www2.cs.duke.edu/courses/fall20/compsci307d/assign/03_simulation/nifty/shiflet-fire
